@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Controllers;
+use App\Controllers\BaseController;
+
 
 class Pages extends BaseController
 {
@@ -22,4 +24,5 @@ class Pages extends BaseController
             . view('pages/' . $page)
             . view('templates/footer');
     }
+    
 }
