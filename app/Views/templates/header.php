@@ -1,3 +1,5 @@
+<?= $this->extend('template') ?>
+<?= $this->section('content') ?>
 <!doctype html>
 <html>
 <head>
@@ -28,3 +30,4 @@
 
     <h1 class="mt-3 ml-4"><?= esc($title) ?></h1>
     <div class="p-4">
+    <?= $this->endSection() ?>
